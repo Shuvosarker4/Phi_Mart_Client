@@ -30,6 +30,11 @@ const HeroCarousel = () => {
       subtitle: "Explore a range of devices for seamless living.",
       image: technology,
     },
+    {
+      title: "Your Digital World, Connected.",
+      subtitle: "Explore a range of devices for seamless living.",
+      image: technology,
+    },
   ];
 
   return (
