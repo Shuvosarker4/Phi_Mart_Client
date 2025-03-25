@@ -15,7 +15,7 @@ const Product = () => {
   useEffect(() => {
     setIsLoading(true);
     apiClient
-      .get("https://phimart-one.vercel.app/api/v1/products/")
+      .get("products/")
       .then((res) => {
         setProducts(res.data.results);
       })
