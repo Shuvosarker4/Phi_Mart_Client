@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const DiscountTimer = () => {
-  const targetDate = new Date().getTime() + 1000 * 60 * 60 * 24 * 25; // set 25 days countdown
+  const targetDate = new Date().getTime() + 1000 * 60 * 60 * 24 * 25;
 
   const getTimeRemaining = () => {
     const now = new Date().getTime();
@@ -22,7 +22,7 @@ const DiscountTimer = () => {
       setTimeLeft(getTimeRemaining());
     }, 1000);
 
-    return () => clearInterval(timer); // Cleanup on unmount
+    return () => clearInterval(timer);
   }, []);
 
   return (
