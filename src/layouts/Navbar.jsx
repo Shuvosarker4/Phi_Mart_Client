@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 const Navbar = () => {
   return (
     <div className="navbar bg-base-100 shadow-sm">
@@ -39,7 +41,7 @@ const Navbar = () => {
               </ul>
             </li>
             <li>
-              <a>Item 3</a>
+              <Link to="/shop">Shop</Link>
             </li>
           </ul>
         </div>
@@ -64,7 +66,7 @@ const Navbar = () => {
             </details>
           </li>
           <li>
-            <a>Item 3</a>
+            <Link to="/shop">Shop</Link>
           </li>
         </ul>
       </div>
